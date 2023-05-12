@@ -1,4 +1,4 @@
-Landing Page
+# Landing Page
 A multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page .
 the starting project was provided by Udacity.
 There're four behaviors we want to see in landing page
@@ -12,7 +12,7 @@ you have a menu with menu items (collapse and numbers of sections).
 if you clicked on anyone of the section items the web page will be scrolled to that particular section we you get there you're going to notice the bubbles that play around and an upButton to get back to header.
 section if you decide to collapse the page the collapse button will remove every single section and the menu leaving you with header and Footer sections
 
-Development
+# Development
 createMenu that responsible for creating the menu dynamically based on the number of the sections .
 
 scrollingUpdate that 'scroll' event listens to and it Adds class 'active' to section when near top of viewport to highlight the section.
